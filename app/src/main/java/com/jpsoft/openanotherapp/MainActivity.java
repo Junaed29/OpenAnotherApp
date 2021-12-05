@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 //Open another activity
                 Intent intent = new Intent(MainActivity.this, HandleAnotherAppActivity.class);
                 startActivity(intent);
+                finish();
             }
 
             @Override
